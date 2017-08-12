@@ -1,0 +1,8 @@
+gradle_group_tasks=( ${(Q)"${(z)$(<<\EO:gradle_group_tasks
+'init:Initializes a new Gradle build.' 'wrapper:Generates Gradle wrapper files.' 'buildEnvironment:Displays all buildscript dependencies declared in root project '\''Components'\''.' 'components:Displays the components produced by root project '\''Components'\''. [incubating]' 'dependencies:Displays all dependencies declared in root project '\''Components'\''.' 'dependencyInsight:Displays the insight into a specific dependency in root project '\''Components'\''.' 'dependentComponents:Displays the dependent components of components in root project '\''Components'\''. [incubating]' 'help:Displays a help message.' 'model:Displays the configuration model of root project '\''Components'\''. [incubating]' 'projects:Displays the sub-projects of root project '\''Components'\''.' 'properties:Displays the properties of root project '\''Components'\''.' 'tasks:Displays the tasks runnable from root project '\''Components'\'' (some of the displayed tasks may belong to subprojects).'
+EO:gradle_group_tasks
+)}"} )
+gradle_all_tasks=( ${(Q)"${(z)$(<<\EO:gradle_all_tasks
+
+EO:gradle_all_tasks
+)}"} )
